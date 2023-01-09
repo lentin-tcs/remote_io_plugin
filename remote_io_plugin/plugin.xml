@@ -1,0 +1,20 @@
+<library path="remote_io_plugin">
+  <class name="remote_io_plugin/MyPlugin" type="remote_io_plugin::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A C++ GUI plugin to test EtherCAT I/O device.
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>Remote IO GUI</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>

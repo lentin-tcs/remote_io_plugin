@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyPluginWidget</class>
+ <widget class="QWidget" name="MyPluginWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1348</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Remote_IO</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>I/O pins</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>120</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PIN ON  duration(ms)</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>170</y>
+     <width>129</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>100000</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>240</y>
+     <width>129</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>100000</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>170</y>
+     <width>281</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Trigger</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>281</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Trigger</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>129</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vaccum Gripper</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>129</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dispenser</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>120</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Task</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>170</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>230</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Workcell</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>2</number>
+   </property>
+   <property name="maximum">
+    <number>3</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_4">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>20</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>4</number>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gripper Suction Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>390</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Task Status</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>470</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>I/O status</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>380</y>
+     <width>751</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>460</y>
+     <width>731</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>20</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pick</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>20</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Place</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>230</y>
+     <width>191</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Clear all PINS</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_5">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>70</y>
+     <width>129</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>30</number>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>1043</x>
+     <y>20</y>
+     <width>20</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>70</y>
+     <width>67</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PIN NO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>130</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ON</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>130</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OFF</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>20</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Manual PIN Control</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>520</y>
+     <width>731</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>update_vaccum_time_ON()</slot>
+  <slot>update_dispenser_time_ON()</slot>
+ </slots>
+</ui>
