@@ -24,3 +24,6 @@ Run rqt and load the Remote IO plugin from the plugins-> Remote IO
 ```
 rqt --force-discover
 ```
+# Screenshot
+
+![remote io plugin](remote_io_plugin.png)
