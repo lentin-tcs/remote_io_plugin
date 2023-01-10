@@ -10,6 +10,7 @@ cd ~/remote_io_ws/src
 git clone https://github.com/lentin-tcs/remote_io_plugin
 cd ..
 rosdep install --from-paths src --ignore-src --rosdistro humble -y
+sudo apt install pluginlib-dev
 colcon build
 echo "source ~/remote_io_ws/install/setup.bash" >> ~/.bashrc
 bash
