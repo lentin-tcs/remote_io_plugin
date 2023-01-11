@@ -20,7 +20,7 @@ bash
 
 # Running the plugin
 -----------------------
-Start the ethercat ros 2 driver and igh master
+Start the [ethercat ros 2 driver and igh master as per this repository](https://github.com/ros2torial/ros2_ethercat)
 
 Run rqt and load the Remote IO plugin from the plugins-> Remote IO
 ```
